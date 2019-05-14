@@ -1,4 +1,4 @@
 # test class for mlp agent puppet test
-class testclient(String $message) {
+class test_profile::client(String $message) {
   notice($message)
 }
